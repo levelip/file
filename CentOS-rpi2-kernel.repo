@@ -1,7 +1,9 @@
 # CentOS-rpi2-kernel.repo
 [rpi2-kernel]
 name=rpi2 kernel repo for CentOS 7 userland
-baseurl=http://mirror.centos.org/altarch/7/kernel/armhfp/kernel-rpi2/
+#baseurl=http://mirror.centos.org/altarch/7/kernel/armhfp/kernel-rpi2/
+baseurl=http://mirror.centos.org/altarch/7.2.1511/kernel/armhfp/kernel-rpi2/repodata/
+
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-AltArch-Arm32
