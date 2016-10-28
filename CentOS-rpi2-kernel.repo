@@ -1,4 +1,4 @@
-#curl "https://raw.githubusercontent.com/levelip/file/master/CentOS-rpi2-kernel.repo" -o /etc/yum.repo.d/CentOS-rpi2-kernel.repo
+#curl "https://raw.githubusercontent.com/levelip/file/master/CentOS-rpi2-kernel.repo" -o /etc/yum.repos.d/CentOS-rpi2-kernel.repo
 # CentOS-rpi2-kernel.repo
 [rpi2-kernel]
 name=rpi2 kernel repo for CentOS 7 userland
