@@ -1,0 +1,1 @@
+oci compute instance list-vnics --compartment-id $(oci iam compartment list|grep compartment-id| awk '{print $2}'| sed 's/,//g'|sed 's/"//g')|grep public-ip|cut -d '"' -f4
